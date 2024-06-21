@@ -104,4 +104,6 @@ print(name[5:35])
 
 #len(name) gives the total length of string
 print(len(name))
+print([1,2,3,4,5,6])
+
 
