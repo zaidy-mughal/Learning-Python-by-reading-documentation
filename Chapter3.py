@@ -104,6 +104,31 @@ print(name[5:35])
 
 #len(name) gives the total length of string
 print(len(name))
-print([1,2,3,4,5,6])
+
+
+#LISTS IN PYTHON
+#can be indexed and sliced and returns shallow copy of list when sliced
+list = [1,2,3,4,5,6,7]
+print(list)
+#we can also concatenate list
+print(list+[8,9])
+#content is changable (mutable)
+list[2] = 4
+print(list)
+#list can also be sliced
+print(list[:4])
+#len(list) gives the length of list
+print(len(list))
+#we can attach new element at the end of list using append() method
+list.append(10)
+print(list)
+#lists can be nested
+list.append([7,5,3,1])
+print(list[-1])
+
+
+
+#multiple assignment in python
+a,b=0,1
 
 
