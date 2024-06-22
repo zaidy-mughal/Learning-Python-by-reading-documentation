@@ -94,3 +94,22 @@ def parrot(voltage, state='a stiff', action='voom'):
 
 d = {"voltage": "four million", "state": "bleedi' demised", "action": "VOOM"}
 parrot(**d)
+
+#LAMBDA
+#lambda as returning funtion and funtion nesting
+def increament(n):
+    return lambda x: x+n
+
+#this will assign the lambda function to f
+f = increament(20)
+#this will give value to lambda function and will print 25.
+print(f(5))
+
+#lambda as passing funtion... 
+#this sort method sort the value in ascending order
+#pairs contain a list of tuples which have one integer and one string value
+#lambda function returns the second value of each pair in the pairs list
+#sort function will sort the list of tuples on the basis of strings
+pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key=lambda pair: pair[1])
+print(pairs)
