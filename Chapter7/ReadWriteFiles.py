@@ -50,3 +50,5 @@ file5 = open('Chapter7/serial.json','r',encoding='utf-8')
 file6 = json.load(file5)
 print(file6)
 file2.close()
+
+#pickle module is used to serialize and deserialize the objects of arbitrary types
