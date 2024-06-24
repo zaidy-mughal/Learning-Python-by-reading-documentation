@@ -1,3 +1,4 @@
+# It is used to track events that happen during runtime and can be used for debugging, error tracking, or other informational purposes.
 import logging
 logging.debug('Debugging information')
 logging.info('Informational message')
