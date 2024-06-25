@@ -1,5 +1,5 @@
 # Operating System Interface...
-# Imports in this file: os - glob - sys - re - math - random - statictics
+# Imports in this file:os - glob - sys - re - math - random - statictics
 # these commands are offen run on shell terminal
 import os
 os.chdir('Chapter10')

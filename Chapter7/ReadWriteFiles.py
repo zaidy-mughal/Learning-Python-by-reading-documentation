@@ -37,7 +37,7 @@ file2.isatty()
 #SERIALIZING AND DESERIALIZING
 import json
 file5 = open('Chapter7/serial.json','w',encoding='utf-8')
-x = [1, 'simple', 'list']
+x = {'zaid':12,'haris':32}
 #dumps funtions return the converted string.
 print(json.dumps(x))
 
@@ -48,7 +48,8 @@ file5.close()
 # this will deserialize and return the deserialized object from a file
 file5 = open('Chapter7/serial.json','r',encoding='utf-8')
 file6 = json.load(file5)
-print(file6)
+# ds = json.loads(file5)
+print(type(file6))
 file2.close()
 
 #pickle module is used to serialize and deserialize the objects of arbitrary types
