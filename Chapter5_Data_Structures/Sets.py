@@ -15,7 +15,7 @@ print('crabgrass' in basket)
 
 
 # Demonstrate set operations on unique letters from two words
-a = set('abracadabra')
+a = set('abracadabra')                    # automatically removes duplicates
 b = set('alacazam')
 print(a)                                  # unique letters in a
 print(a - b)                              # letters in a but not in b (Difference)
